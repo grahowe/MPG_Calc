@@ -19,8 +19,8 @@ ppg = price*gals
 print("Your total price per gallon was approximately: $", round(ppg, 2))
 
 if(mpg < 20):
-    print("\nIn-town driving just doesn't cut it!")
+    print("\nGas hog!")
 elif(mpg >= 20):
-    print("\nDo you live on the highway or are you just efficient?")
+    print("\nFuel Saver!")
     
 print("\nPlease save this for your records")
